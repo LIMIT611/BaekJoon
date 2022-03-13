@@ -7,7 +7,11 @@ class BaekJun
     public static void Main(String[] args)
     {
 
-        Console.WriteLine("Hello World!");
+        string[] input = Console.ReadLine().Split();
+            
+        double output = double.Parse(input[0]) / double.Parse(input[1]);
+
+        Console.WriteLine(output);
 
     }
 
