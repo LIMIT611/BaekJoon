@@ -7,8 +7,10 @@ class BaekJun
     public static void Main(String[] args)
     {
 
-        Console.WriteLine("Hello World!");
+        String s = Console.ReadLine();
 
+        Console.WriteLine(s + "??!");
+        
     }
 
 }
