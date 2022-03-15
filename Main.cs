@@ -7,7 +7,11 @@ class BaekJun
     public static void Main(String[] args)
     {
 
-        Console.WriteLine("Hello World!");
+        String s = Console.ReadLine();
+
+        int year = int.Parse(s);
+
+        Console.WriteLine(year - 543);
 
     }
 
