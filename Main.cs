@@ -7,7 +7,10 @@ class BaekJun
     public static void Main(String[] args)
     {
 
-        Console.WriteLine("Hello World!");
+        Console.WriteLine(  "\\    /\\\n" + 
+                            " )  ( ')\n" + 
+                            "(  /  )\n" + 
+                           " \\(__)|");
 
     }
 
