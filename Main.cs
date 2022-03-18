@@ -7,8 +7,14 @@ class BaekJun
     public static void Main(String[] args)
     {
 
-        Console.WriteLine("Hello World!");
+        String input = Console.ReadLine();
 
+        int output;
+
+        output = Convert.ToInt32(input[0]);
+
+        Console.WriteLine(output);
+        
     }
 
 }
