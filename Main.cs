@@ -7,7 +7,8 @@ class BaekJun
     public static void Main(String[] args)
     {
 
-        Console.WriteLine("Hello World!");
+        Console.WriteLine("강한친구 대한육군");
+        Console.WriteLine("강한친구 대한육군");
 
     }
 
