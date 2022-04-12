@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Runtime;
 
 
 class BaekJun
@@ -7,7 +7,10 @@ class BaekJun
     public static void Main(String[] args)
     {
 
-        Console.WriteLine("Hello World!");
+        double r = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("{0:F6}", r * r * Math.PI);
+        Console.WriteLine("{0:F6}", r * r * 2);
 
     }
 
